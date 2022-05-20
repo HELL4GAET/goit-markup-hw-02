@@ -104,6 +104,14 @@ line-height: 1.14;
         line-height: 1.71;
 }
 
+.details-logo {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
 /* Наша команда */
 .our-team h2 {
     font-weight: 700;
