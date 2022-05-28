@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    background-color: var(--primary-white-color);
+    background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
 }
@@ -84,7 +84,7 @@ text-decoration: none;
 
 .hero-button {
     cursor: pointer;
-    color: #ffffff;
+    color: var(--primary-background-color);
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -150,31 +150,26 @@ text-decoration: none;
 }
 
 /* Футер */
-.footer {
+footer {
     background-color: #2F303A;
 }
 
-.footer .segment {
-    color: var(--primary-background-color);
-}
 
-.footer .logo {
+.logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-    color: var(--accent-color)
+    color: var(--primary-background-color);
 }
 
-
-.footer .logo:hover,
-.footer .logo:focus {
+.logo:hover,
+.logo:focus {
     color: var(--accent-color);
 }
 
-.footer .segment:hover,
-.footer .segment:focus {
+.logo .accent {
     color: var(--accent-color);
 }
 
@@ -186,7 +181,7 @@ text-decoration: none;
     font-style: normal;
 }
 
-.footer .connection {
+.connection {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
@@ -195,8 +190,8 @@ text-decoration: none;
     font-style: normal;
 }
 
-.footer .connection:hover,
-.footer .connection:focus {
+.connection:hover,
+.connection:focus {
     color: var(--accent-color);
 }
 
