@@ -32,7 +32,7 @@ nav .logo:focus {
 }
 /* навигация в хедере */
 
-.site-nav .link{
+.site-nav .link {
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
 font-weight: 500;
@@ -41,18 +41,17 @@ line-height: 1.14;
 text-decoration: none;
 }
 
-.site-nav .portfolio {
-    color: var(--accent-color);
-}
-
-.site-nav .studio {
-    color: var(--accent-color);
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+
+
 
 
 .auth-nav .link {
@@ -85,6 +84,7 @@ text-decoration: none;
 .hero-button {
     cursor: pointer;
     color: var(--primary-background-color);
+    background-color: var(--accent-color);
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -95,8 +95,7 @@ text-decoration: none;
 
 .hero-button:hover,
 .hero-button:focus {
-    color: var(--primary-background-color);
-    background-color: var(--accent-color);
+   background-color: #188CE8;
 }
 
 /* основная секция */
@@ -217,7 +216,7 @@ list-style: none;
     background-color: var(--accent-color);
 }
 
-.filter h1 {
+.filter h2 {
     font-family: Roboto, sans-serif ;
     font-weight: 700;
     font-size: 18px;
